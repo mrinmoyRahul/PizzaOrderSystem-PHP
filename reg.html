@@ -1,0 +1,114 @@
+</title>
+</head>
+<style>
+#abc{
+   
+    position: relative;
+     
+    animation: mymove 3s ;
+}
+
+
+
+@keyframes mymove {
+    from {right: 700px;}
+    to {right: 0px;}
+}
+#footer{
+	background-color: black;
+	height: 50;
+	width: auto;
+}
+#pop{
+	
+	
+  background: #ffffff00;
+  max-height: 400px;
+  max-width: 400px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+img {
+    width: 100%;
+    height: auto;
+}
+ol {
+  width: auto;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 15px;
+
+  }
+ol li{background:#ffffff00; padding-top: 15px;
+  width: 90px;
+  height: 35px;
+  padding-top: 15px;
+  list-style-type: none;
+  text-align: center;
+  float:left;
+  border-radius: 10px;
+  margin-right: 20px;
+position:fixed;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+ol li a{
+  color: white;
+  text-decoration: none;
+}
+.btn {
+  background-color: #ffffff00;
+  
+ border:1px solid#ccc;
+  
+  text-align: center;
+ 
+ color:white;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color:white;
+  color:black;
+
+}
+input:focus{ color:white;}
+input,select,textarea{ color:white;}
+
+body {
+    background:url('img/anim.gif') repeat-y 100% 100% fixed;
+    background-size:cover;
+}
+</style>
+
+<body >
+  <ol>
+    <li><a href="index.html">HOME</a></li>
+    </ol>
+<div id="abc"><div id="pop">	
+<h1 style="color:white;">CREATE AN ACCOUNT</h1>
+<form action="insert.php">
+  <table style="color:white;">
+<tr><td><b>Full Name</b> : </td><td><input type="fname" name="a1"style="border-radius: 5px;; padding:5px 20px;" class="btn"placeholder="full name"/></td></tr>
+
+
+
+<tr><td><b>Email</b> : </td><td> <input type="email" name="a2"style="border-radius: 5px;; padding:5px 20px;" class="btn" placeholder="enter your email"/></td></tr>
+
+
+
+<tr><td><b>Password</b> :</td><td>  <input type="password" name="a3"style="border-radius: 5px;; padding:5px 20px;" class="btn" placeholder="password"/></td></tr>
+
+<tr><td><b>Mobile Number</b> : </td><td>  <input type="number" name="a4"style="border-radius: 5px;; padding:5px 20px;" class="btn" placeholder="mobile no..."></td></tr>
+<tr><td><input type="submit" style=" border-radius:5px; font-size: 13px; height: 25px; width: 150px;" value="Submit" class="btn"></td><td>
+  
+<input type="reset" value="Reset" style=" border-radius:5px; font-size: 13px; height: 25px; width: 150px; margin-left: 70px;" class="btn"></td></tr></table>
+</form>
+</div>
+</div>
+</body>
+</html>
